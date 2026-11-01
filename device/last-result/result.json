@@ -1,0 +1,142 @@
+{
+  "note": "DETERMINISTIC: 실행 시각이나 무작위 값을 쓰지 않습니다. 입력 폴더의 파일 내용만으로 계산합니다.",
+  "sourceFiles": {
+    "ritual": "ritual-history-2026-10-29.json",
+    "attendance": "출석기록.txt",
+    "submissions": "제출현황.txt"
+  },
+  "numbers": {
+    "firstDate": "2026-08-11",
+    "lastDate": "2026-10-29",
+    "totalDays": 53,
+    "weeksWithEntry": 12,
+    "closeFilled": 52
+  },
+  "attendance": {
+    "totalDays": 54,
+    "byStatus": {
+      "출석": 53,
+      "공가": 1
+    },
+    "present": 53,
+    "excused": 1,
+    "absent": 0,
+    "notes": [
+      {
+        "date": "10/7 (수)",
+        "status": "출석",
+        "note": "보정됨 · 입력실수"
+      },
+      {
+        "date": "8/28 (금)",
+        "status": "공가",
+        "note": "보정됨 · 공가 — 정보처리기사 시험 응시"
+      }
+    ],
+    "firstRowDate": "8/11 (화)",
+    "lastRowDate": "10/30 (금)"
+  },
+  "submissions": {
+    "total": 11,
+    "byStatus": {
+      "마스터 승인": 11
+    },
+    "approved": 11,
+    "items": [
+      {
+        "title": "1. 나를 소개하는 한 페이지",
+        "status": "마스터 승인"
+      },
+      {
+        "title": "2. 내가 설계한 미니게임",
+        "status": "마스터 승인"
+      },
+      {
+        "title": "3. 팔 카드 스튜디오",
+        "status": "마스터 승인"
+      },
+      {
+        "title": "4. 오늘의 진짜 정보편 — 데이터가 안 올 때",
+        "status": "마스터 승인"
+      },
+      {
+        "title": "5. 대화가 끊기지 않는 프로젝트",
+        "status": "마스터 승인"
+      },
+      {
+        "title": "6. 플랜두씨 다이어리 1 — 내 계획과 실패를 담은 앱",
+        "status": "마스터 승인"
+      },
+      {
+        "title": "7. 플랜두씨 다이어리 2 — 인증을 붙이고, 어떻게 붙였는지 설명하기",
+        "status": "마스터 승인"
+      },
+      {
+        "title": "8. 내 소개 페이지에 패스키 달기 — 비밀번호 없이 나만 들어가기",
+        "status": "마스터 승인"
+      },
+      {
+        "title": "9. 나를 말하는 에이전트: 리추얼 기록에서 내 강점과 이야기를 찾기",
+        "status": "마스터 승인"
+      },
+      {
+        "title": "10. AI와 함께 쓰는 논문 — 가설에서 결론까지",
+        "status": "마스터 승인"
+      },
+      {
+        "title": "11. 너에 대한 3만 자 장편소설 — 내 삶을 소재로, 진한 감동의 서사",
+        "status": "마스터 승인"
+      }
+    ]
+  },
+  "abilityCandidates": [
+    {
+      "id": "self-regulation-02",
+      "ability": "자기조절력",
+      "date": "2026-08~",
+      "source": "draft/01_자기소개_본편.md (학생 확인, 2026-11-01 대화)",
+      "text": "모르는 것 앞에서 멈춰 있기보다는 일단 무작정 해 보고, 막히면 주변 사람들에게 물어가며 계속 나아갔습니다.",
+      "approved": true
+    },
+    {
+      "id": "self-motivation-02",
+      "ability": "자기동기력",
+      "date": "2026-08~",
+      "source": "draft/01_자기소개_본편.md (학생 확인, 2026-11-01 대화)",
+      "text": "주어진 과제를 하나씩 해내면서 AI 활용법을 스스로 익혔고, 부족한 지식은 따로 공부하며 채워 갔습니다.",
+      "approved": true
+    },
+    {
+      "id": "interpersonal-01",
+      "ability": "대인관계력",
+      "date": "2026년 상반기(캡스톤) → ALEPH",
+      "source": "draft/01_자기소개_본편.md (학생 확인, 2026-10-30·2026-11-01 대화)",
+      "text": "원래 혼자 몰입해서 끝내는 데 더 익숙했지만, 학부 캡스톤에서 팀원과 역할을 나누고 협력하며 혼자서는 낼 수 없던 결과를 처음 경험했고, 그 경험이 지금 ALEPH 조별 활동에서 다시 한번 분명해졌습니다.",
+      "approved": true
+    },
+    {
+      "id": "numbers-overall",
+      "ability": "회복탄력성",
+      "date": "2026-08-11~2026-10-29",
+      "source": "ritual-history-*.json (자동 계산)",
+      "text": "13주 가운데 12주 동안 리추얼 기록을 남겼고, 총 53일 중 52일은 저녁 마무리까지 작성했습니다.",
+      "approved": true
+    },
+    {
+      "id": "numbers-attendance",
+      "ability": "과제지속력",
+      "date": "8/11 (화)~10/30 (금)",
+      "source": "출석기록.txt (자동 계산)",
+      "text": "54일 중 53일 출석, 1일 공가, 0일 결석으로 기록되어 있습니다.",
+      "approved": true
+    },
+    {
+      "id": "numbers-submissions",
+      "ability": "과제완수력",
+      "date": "과제 1~11",
+      "source": "제출현황.txt (자동 계산)",
+      "text": "지난 과제 11건 가운데 11건이 마스터 승인을 받았습니다.",
+      "approved": true
+    }
+  ]
+}

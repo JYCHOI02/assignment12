@@ -1,0 +1,44 @@
+[
+  {
+    "id": "self-regulation-02",
+    "ability": "자기조절력",
+    "date": "2026-08~",
+    "source": "draft/01_자기소개_본편.md (학생 확인, 2026-11-01 대화)",
+    "template": "모르는 것 앞에서 멈춰 있기보다는 일단 무작정 해 보고, 막히면 주변 사람들에게 물어가며 계속 나아갔습니다."
+  },
+  {
+    "id": "self-motivation-02",
+    "ability": "자기동기력",
+    "date": "2026-08~",
+    "source": "draft/01_자기소개_본편.md (학생 확인, 2026-11-01 대화)",
+    "template": "주어진 과제를 하나씩 해내면서 AI 활용법을 스스로 익혔고, 부족한 지식은 따로 공부하며 채워 갔습니다."
+  },
+  {
+    "id": "interpersonal-01",
+    "ability": "대인관계력",
+    "date": "2026년 상반기(캡스톤) → ALEPH",
+    "source": "draft/01_자기소개_본편.md (학생 확인, 2026-10-30·2026-11-01 대화)",
+    "template": "원래 혼자 몰입해서 끝내는 데 더 익숙했지만, 학부 캡스톤에서 팀원과 역할을 나누고 협력하며 혼자서는 낼 수 없던 결과를 처음 경험했고, 그 경험이 지금 ALEPH 조별 활동에서 다시 한번 분명해졌습니다."
+  },
+  {
+    "id": "numbers-overall",
+    "ability": "회복탄력성",
+    "date": "{{firstDate}}~{{lastDate}}",
+    "source": "ritual-history-*.json (자동 계산)",
+    "template": "13주 가운데 {{weeksWithEntry}}주 동안 리추얼 기록을 남겼고, 총 {{totalDays}}일 중 {{closeFilled}}일은 저녁 마무리까지 작성했습니다."
+  },
+  {
+    "id": "numbers-attendance",
+    "ability": "과제지속력",
+    "date": "{{attendanceFirstDate}}~{{attendanceLastDate}}",
+    "source": "출석기록.txt (자동 계산)",
+    "template": "{{attendanceTotal}}일 중 {{attendancePresent}}일 출석, {{attendanceExcused}}일 공가, {{attendanceAbsent}}일 결석으로 기록되어 있습니다."
+  },
+  {
+    "id": "numbers-submissions",
+    "ability": "과제완수력",
+    "date": "과제 1~11",
+    "source": "제출현황.txt (자동 계산)",
+    "template": "지난 과제 {{submissionsTotal}}건 가운데 {{submissionsApproved}}건이 마스터 승인을 받았습니다."
+  }
+]

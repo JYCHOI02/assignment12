@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>경력기술서 — 최재영</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fbfaf8; --surface: #ffffff; --fg: #16181d; --muted: #6b6f76;
+    --accent: #1f4fd8; --accent-ink: #0f2e86; --accent-soft: #eaefff;
+    --line: rgba(20, 22, 30, 0.1);
+    --shadow: 0 1px 2px rgba(20,22,30,.04), 0 12px 28px -14px rgba(20,22,30,.18);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d0e11; --surface: #16181d; --fg: #ededee; --muted: #9a9ea6;
+      --accent: #8fa8ff; --accent-ink: #dbe3ff; --accent-soft: #1b2342;
+      --line: rgba(255,255,255,0.12);
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 20px 40px -20px rgba(0,0,0,.6);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Noto Sans KR", sans-serif;
+    line-height: 1.75; -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 20px 100px; }
+  .back { display: inline-block; color: var(--accent); text-decoration: none; font-weight: 600; font-size: .9rem; margin-bottom: 28px; }
+  .back:hover { text-decoration: underline; }
+  .eyebrow { display: block; font-size: .78rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin-bottom: 10px; }
+  h1 { font-family: "Fraunces", "Noto Serif KR", Georgia, serif; font-size: clamp(2rem, 5vw, 2.8rem); font-weight: 600; margin: 0 0 44px; letter-spacing: -0.01em; }
+  .entry {
+    background: var(--surface);
+    border-radius: 16px;
+    padding: 26px 28px;
+    box-shadow: var(--shadow);
+    margin-bottom: 20px;
+  }
+  .entry .tag {
+    display: inline-block;
+    font-size: .72rem;
+    font-weight: 700;
+    color: var(--accent-ink);
+    background: var(--accent-soft);
+    padding: 3px 10px;
+    border-radius: 999px;
+    margin-bottom: 10px;
+  }
+  .entry h2 { margin: 0 0 16px; font-size: 1.15rem; font-weight: 700; }
+  .entry dl { margin: 0; display: grid; grid-template-columns: 64px 1fr; row-gap: 8px; column-gap: 12px; font-size: .92rem; }
+  .entry dt { color: var(--muted); font-weight: 600; }
+  .entry dd { margin: 0; }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="../index.html">← 최재영</a>
+  <span class="eyebrow">Career</span>
+  <h1>경력기술서</h1>
+
+  <div class="entry">
+    <span class="tag">자기동기력</span>
+    <h2>게임 프로젝트 — 버그 수정과 플레이테스트 밸런싱</h2>
+    <dl>
+      <dt>상황</dt><dd>개발 과제에서 타워 선택·인터페이스가 겹쳐 보이는 돌출 버그가 있었습니다.</dd>
+      <dt>행동</dt><dd>AI가 제안한 수정안에 그대로 의존하지 않고 직접 원인을 찾아 수정했고, 밸런스도 실제로 플레이해 보면서 조정했습니다.</dd>
+      <dt>결과</dt><dd>버그 없이 작동하는 게임을 완성했습니다.</dd>
+    </dl>
+  </div>
+
+  <div class="entry">
+    <span class="tag">자기조절력</span>
+    <h2>데이터 대시보드 — 과부하를 고려한 범위 설계</h2>
+    <dl>
+      <dt>상황</dt><dd>데이터량이 많아지면 SVG 차트가 과부하로 느려질 수 있는 구조였습니다.</dd>
+      <dt>행동</dt><dd>전체 기간을 다 보여주는 대신, 최근 90일로 조회 범위를 제한하는 설계를 직접 정해 적용했습니다.</dd>
+      <dt>결과</dt><dd>데이터량이 늘어도 안정적으로 동작하는 대시보드를 완성했습니다.</dd>
+    </dl>
+  </div>
+
+  <div class="entry">
+    <span class="tag">대인관계력</span>
+    <h2>ALEPH 보안 팀 프로젝트 — 협업 중 자료 공유</h2>
+    <dl>
+      <dt>상황</dt><dd>팀 작업 중 동료가 작업에 필요한 웹훅(webhook) 메시지 공유를 요청했습니다.</dd>
+      <dt>행동</dt><dd>요청받자마자 바로 공유해, 팀원이 작업을 멈추지 않고 이어 갈 수 있게 했습니다.</dd>
+      <dt>결과</dt><dd>동료에게서 "공유 요청하자마자 공유해주셔서 감사합니다"라는 평가를 받았습니다.</dd>
+    </dl>
+  </div>
+</main>
+</body>
+</html>

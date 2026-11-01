@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>이력서 — 최재영</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fbfaf8; --surface: #ffffff; --fg: #16181d; --muted: #6b6f76;
+    --accent: #1f4fd8; --accent-ink: #0f2e86; --accent-soft: #eaefff;
+    --line: rgba(20, 22, 30, 0.1); --card-bg: #f3f3f1;
+    --shadow: 0 1px 2px rgba(20,22,30,.04), 0 12px 28px -14px rgba(20,22,30,.18);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d0e11; --surface: #16181d; --fg: #ededee; --muted: #9a9ea6;
+      --accent: #8fa8ff; --accent-ink: #dbe3ff; --accent-soft: #1b2342;
+      --line: rgba(255,255,255,0.12); --card-bg: #1a1c21;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 20px 40px -20px rgba(0,0,0,.6);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Noto Sans KR", sans-serif;
+    line-height: 1.75; -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 20px 100px; }
+  .back { display: inline-block; color: var(--accent); text-decoration: none; font-weight: 600; font-size: .9rem; margin-bottom: 28px; }
+  .back:hover { text-decoration: underline; }
+  .eyebrow { display: block; font-size: .78rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin-bottom: 10px; }
+  h1 { font-family: "Fraunces", "Noto Serif KR", Georgia, serif; font-size: clamp(2rem, 5vw, 2.8rem); font-weight: 600; margin: 0 0 6px; letter-spacing: -0.01em; }
+  .contact { color: var(--muted); margin: 0 0 44px; font-size: .95rem; }
+  .contact a { color: var(--accent); text-decoration: none; }
+  h2 { font-size: 1.05rem; font-weight: 700; margin: 0 0 14px; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+  section { margin-bottom: 38px; }
+  table { width: 100%; border-collapse: collapse; }
+  td { padding: 10px 0; border-bottom: 1px solid var(--line); vertical-align: top; font-size: .92rem; }
+  td.role { font-weight: 600; width: 46%; }
+  td.period { color: var(--muted); text-align: right; white-space: nowrap; }
+  tr:last-child td { border-bottom: none; }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="../index.html">← 최재영</a>
+  <span class="eyebrow">Resume</span>
+  <h1>이력서</h1>
+  <p class="contact">최재영 · <a href="mailto:jaero@secure.com">jaero@secure.com</a></p>
+
+  <section>
+    <h2>학력</h2>
+    <table>
+      <tr><td class="role">빅데이터사이언스학부</td><td class="period">2021 — 2028.02 (예정)</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>활동</h2>
+    <table>
+      <tr><td class="role">학부 캡스톤 프로젝트 — 시공간 모델링</td><td class="period">2026.03 — 2026.06</td></tr>
+      <tr><td class="role">실무 훈련 과정 (보안·개발)</td><td class="period">2026.08 — 진행 중</td></tr>
+      <tr><td class="role">ALEPH 보안 팀 프로젝트</td><td class="period">2026.09 — 2026.10</td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>자격증</h2>
+    <table>
+      <tr><td class="role">정보처리기사</td><td class="period">필기 합격 · 실기 2027 예정</td></tr>
+      <tr><td class="role">ADsP (데이터분석 준전문가)</td><td class="period">2026.06.05 취득</td></tr>
+      <tr><td class="role">SQLD (SQL 개발자)</td><td class="period">2026.09.11 취득</td></tr>
+    </table>
+  </section>
+</main>
+</body>
+</html>
