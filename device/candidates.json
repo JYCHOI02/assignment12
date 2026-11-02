@@ -40,5 +40,12 @@
     "date": "과제 1~11",
     "source": "제출현황.txt (자동 계산)",
     "template": "지난 과제 {{submissionsTotal}}건 가운데 {{submissionsApproved}}건이 마스터 승인을 받았습니다."
+  },
+  {
+    "id": "hardship-attendance-pairing",
+    "ability": "회복탄력성",
+    "date": "{{attendanceFirstDate}}~{{attendanceLastDate}}",
+    "source": "출석기록.txt (자동 계산, 고난 장면과 짝지은 숫자)",
+    "template": "{{attendanceTotal}}일간 하루도 빠짐없이 출석했습니다."
   }
 ]

@@ -137,6 +137,14 @@
       "source": "제출현황.txt (자동 계산)",
       "text": "지난 과제 11건 가운데 11건이 마스터 승인을 받았습니다.",
       "approved": true
+    },
+    {
+      "id": "hardship-attendance-pairing",
+      "ability": "회복탄력성",
+      "date": "8/11 (화)~10/30 (금)",
+      "source": "출석기록.txt (자동 계산, 고난 장면과 짝지은 숫자)",
+      "text": "54일간 하루도 빠짐없이 출석했습니다.",
+      "approved": true
     }
   ]
 }
